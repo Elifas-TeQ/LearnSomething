@@ -4,7 +4,9 @@ A collection of small projects for exploring programming concepts and technologi
 
 ## Projects
 
-...
+### LockMutexSemaphore
+
+A .NET console application demonstrating synchronization with locks, mutexes, and semaphores.
 
 ## Prerequisites
 
@@ -16,4 +18,10 @@ Build all projects:
 
 ```sh
 dotnet build LearnSomething.sln
+```
+
+Run the synchronization examples:
+
+```sh
+dotnet run --project LockMutexSemaphore/LockMutexSemaphore.csproj
 ```
